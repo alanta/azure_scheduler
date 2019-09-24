@@ -1,0 +1,17 @@
+{
+  "Name": "Container Instance Manager",
+  "Id": null,
+  "IsCustom": true,
+  "Description": "Allow starting and stopping Azure Container Instance container group resources",
+  "Actions": [
+    "Microsoft.ContainerInstance/containerGroups/start/action",
+    "Microsoft.ContainerInstance/containerGroups/stop/action",
+    "Microsoft.ContainerInstance/containerGroups/restart/action"
+  ],
+  "NotActions": [
+    "Microsoft.ContainerInstance/containerGroups/read"
+  ],
+  "AssignableScopes": [
+    "/subscriptions/<subscription-id>"
+  ]
+}

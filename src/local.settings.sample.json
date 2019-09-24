@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ClientId": "GUID - Client ID of the AAD App",
+    "ClientSecret": "Password - The secret for the AAD App",
+    "TenantId": "GUID - The tenant ID for the AAD",
+    "Tags":  "{\"team\":\"Development\"}" 
+  }
+}
